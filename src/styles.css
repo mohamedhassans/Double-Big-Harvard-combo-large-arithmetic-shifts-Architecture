@@ -1,0 +1,39 @@
+
+/*myButton*/
+#myButton {
+    -fx-background-color: #7C96AB;
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 5em;
+    -fx-min-width: 100px;
+    -fx-min-height: 30px;
+    -fx-max-width: 180px;
+    -fx-max-height: 50px;
+    -fx-border-radius: 5em;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-font-size: 16px; }
+#myButton:hover {
+    -fx-background-color: #B7B7B7;
+
+}
+.background {
+    -fx-background-color: #BFCCB5;
+}
+
+.dd {
+        -fx-padding: 10px; /* Set padding around the TextArea */
+        -fx-background-color: transparent; /* Set the background color to transparent */
+        -fx-border-color: transparent; /* Set the border color to transparent */
+        -fx-border-width: 0; /* Set the border width to 0 */
+        -fx-position: relative; /* Set the position to relative for absolute positioning of pseudo-elements */
+    }
+    .dd:after {
+        -fx-content: "";
+        -fx-position: absolute;
+        -fx-top: 0;
+        -fx-left: 0;
+        -fx-right: 0;
+        -fx-bottom: 0;
+        -fx-background-color: rgba(0, 0, 0, 0.5); /* Set the background color with opacity */
+    }
+
